@@ -194,4 +194,4 @@ async def getKey(ctx):
   chanel = await ctx.author.create_dm()
   await chanel.send("\"" + bc.generateKey(False) + "\"")
 # connect token
-bot.run('ODQ0MjM1OTYyMjM3NzE0NDMy.YKPeAg.uIymPoi3-PHWF3HJ0W0uY10IRo0')
+bot.run(os.getenv("TOKEN"))
