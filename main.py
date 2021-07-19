@@ -195,4 +195,3 @@ async def getKey(ctx):
   await chanel.send("\"" + bc.generateKey(False) + "\"")
 # connect token
 bot.run(os.environ["TOKEN"])
-#temp
